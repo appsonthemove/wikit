@@ -9,14 +9,21 @@
 import UIKit
 
 class Document: UIDocument {
+    var html: Data? = nil
     
     override func contents(forType typeName: String) throws -> Any {
         // Encode your document with an instance of NSData or NSFileWrapper
-        return Data()
+        if let html = html {
+            return html
+        } else {
+            return Data()
+        }
     }
     
     override func load(fromContents contents: Any, ofType typeName: String?) throws {
-        // Load your document from contents
+        if let userContent = contents as? Data {
+            html = userContent
+        }
     }
 }
 

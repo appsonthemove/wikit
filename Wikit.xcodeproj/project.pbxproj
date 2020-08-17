@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C938F31D24EAC2E600D7E99B /* DataURI in Frameworks */ = {isa = PBXBuildFile; productRef = C938F31C24EAC2E600D7E99B /* DataURI */; };
 		C9ED3A5024E19BAA0057E087 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED3A4F24E19BAA0057E087 /* AppDelegate.swift */; };
 		C9ED3A5224E19BAA0057E087 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED3A5124E19BAA0057E087 /* DocumentBrowserViewController.swift */; };
 		C9ED3A5424E19BAA0057E087 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED3A5324E19BAA0057E087 /* DocumentViewController.swift */; };
@@ -15,6 +16,8 @@
 		C9ED3A5B24E19BAC0057E087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9ED3A5A24E19BAC0057E087 /* Assets.xcassets */; };
 		C9ED3A5E24E19BAC0057E087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ED3A5C24E19BAC0057E087 /* LaunchScreen.storyboard */; };
 		C9ED3A6924E19BAC0057E087 /* TwikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED3A6824E19BAC0057E087 /* TwikiTests.swift */; };
+		C9ED3A7424E19F5E0057E087 /* empty.html in Resources */ = {isa = PBXBuildFile; fileRef = C9ED3A7324E19F5E0057E087 /* empty.html */; };
+		C9ED3A7724E1A1890057E087 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9ED3A7624E1A1890057E087 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9ED3A4C24E19BAA0057E087 /* Twiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ED3A4C24E19BAA0057E087 /* Wikit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wikit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9ED3A4F24E19BAA0057E087 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9ED3A5124E19BAA0057E087 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
 		C9ED3A5324E19BAA0057E087 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
@@ -37,9 +40,11 @@
 		C9ED3A5A24E19BAC0057E087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9ED3A5D24E19BAC0057E087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9ED3A5F24E19BAC0057E087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9ED3A6424E19BAC0057E087 /* TwikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ED3A6424E19BAC0057E087 /* WikitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9ED3A6824E19BAC0057E087 /* TwikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwikiTests.swift; sourceTree = "<group>"; };
 		C9ED3A6A24E19BAC0057E087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9ED3A7324E19F5E0057E087 /* empty.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = empty.html; sourceTree = "<group>"; };
+		C9ED3A7624E1A1890057E087 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ED3A7724E1A1890057E087 /* WebKit.framework in Frameworks */,
+				C938F31D24EAC2E600D7E99B /* DataURI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,14 +73,15 @@
 				C9ED3A4E24E19BAA0057E087 /* Twiki */,
 				C9ED3A6724E19BAC0057E087 /* TwikiTests */,
 				C9ED3A4D24E19BAA0057E087 /* Products */,
+				C9ED3A7524E1A1890057E087 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C9ED3A4D24E19BAA0057E087 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C9ED3A4C24E19BAA0057E087 /* Twiki.app */,
-				C9ED3A6424E19BAC0057E087 /* TwikiTests.xctest */,
+				C9ED3A4C24E19BAA0057E087 /* Wikit.app */,
+				C9ED3A6424E19BAC0057E087 /* WikitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +89,7 @@
 		C9ED3A4E24E19BAA0057E087 /* Twiki */ = {
 			isa = PBXGroup;
 			children = (
+				C9ED3A7324E19F5E0057E087 /* empty.html */,
 				C9ED3A4F24E19BAA0057E087 /* AppDelegate.swift */,
 				C9ED3A5124E19BAA0057E087 /* DocumentBrowserViewController.swift */,
 				C9ED3A5324E19BAA0057E087 /* DocumentViewController.swift */,
@@ -102,12 +111,20 @@
 			path = TwikiTests;
 			sourceTree = "<group>";
 		};
+		C9ED3A7524E1A1890057E087 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9ED3A7624E1A1890057E087 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C9ED3A4B24E19BAA0057E087 /* Twiki */ = {
+		C9ED3A4B24E19BAA0057E087 /* Wikit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9ED3A6D24E19BAC0057E087 /* Build configuration list for PBXNativeTarget "Twiki" */;
+			buildConfigurationList = C9ED3A6D24E19BAC0057E087 /* Build configuration list for PBXNativeTarget "Wikit" */;
 			buildPhases = (
 				C9ED3A4824E19BAA0057E087 /* Sources */,
 				C9ED3A4924E19BAA0057E087 /* Frameworks */,
@@ -117,14 +134,17 @@
 			);
 			dependencies = (
 			);
-			name = Twiki;
+			name = Wikit;
+			packageProductDependencies = (
+				C938F31C24EAC2E600D7E99B /* DataURI */,
+			);
 			productName = Twiki;
-			productReference = C9ED3A4C24E19BAA0057E087 /* Twiki.app */;
+			productReference = C9ED3A4C24E19BAA0057E087 /* Wikit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C9ED3A6324E19BAC0057E087 /* TwikiTests */ = {
+		C9ED3A6324E19BAC0057E087 /* WikitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9ED3A7024E19BAC0057E087 /* Build configuration list for PBXNativeTarget "TwikiTests" */;
+			buildConfigurationList = C9ED3A7024E19BAC0057E087 /* Build configuration list for PBXNativeTarget "WikitTests" */;
 			buildPhases = (
 				C9ED3A6024E19BAC0057E087 /* Sources */,
 				C9ED3A6124E19BAC0057E087 /* Frameworks */,
@@ -135,9 +155,9 @@
 			dependencies = (
 				C9ED3A6624E19BAC0057E087 /* PBXTargetDependency */,
 			);
-			name = TwikiTests;
+			name = WikitTests;
 			productName = TwikiTests;
-			productReference = C9ED3A6424E19BAC0057E087 /* TwikiTests.xctest */;
+			productReference = C9ED3A6424E19BAC0057E087 /* WikitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C9ED3A4724E19BAA0057E087 /* Build configuration list for PBXProject "Twiki" */;
+			buildConfigurationList = C9ED3A4724E19BAA0057E087 /* Build configuration list for PBXProject "Wikit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,12 +188,15 @@
 				Base,
 			);
 			mainGroup = C9ED3A4324E19BAA0057E087;
+			packageReferences = (
+				C938F31B24EAC2E600D7E99B /* XCRemoteSwiftPackageReference "data-uri" */,
+			);
 			productRefGroup = C9ED3A4D24E19BAA0057E087 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C9ED3A4B24E19BAA0057E087 /* Twiki */,
-				C9ED3A6324E19BAC0057E087 /* TwikiTests */,
+				C9ED3A4B24E19BAA0057E087 /* Wikit */,
+				C9ED3A6324E19BAC0057E087 /* WikitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ED3A7424E19F5E0057E087 /* empty.html in Resources */,
 				C9ED3A5E24E19BAC0057E087 /* LaunchScreen.storyboard in Resources */,
 				C9ED3A5B24E19BAC0057E087 /* Assets.xcassets in Resources */,
 				C9ED3A5924E19BAA0057E087 /* Main.storyboard in Resources */,
@@ -223,7 +247,7 @@
 /* Begin PBXTargetDependency section */
 		C9ED3A6624E19BAC0057E087 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C9ED3A4B24E19BAA0057E087 /* Twiki */;
+			target = C9ED3A4B24E19BAA0057E087 /* Wikit */;
 			targetProxy = C9ED3A6524E19BAC0057E087 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +440,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twiki.app/Twiki";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wikit.app/Wikit";
 			};
 			name = Debug;
 		};
@@ -438,14 +462,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twiki.app/Twiki";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wikit.app/Wikit";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C9ED3A4724E19BAA0057E087 /* Build configuration list for PBXProject "Twiki" */ = {
+		C9ED3A4724E19BAA0057E087 /* Build configuration list for PBXProject "Wikit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9ED3A6B24E19BAC0057E087 /* Debug */,
@@ -454,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9ED3A6D24E19BAC0057E087 /* Build configuration list for PBXNativeTarget "Twiki" */ = {
+		C9ED3A6D24E19BAC0057E087 /* Build configuration list for PBXNativeTarget "Wikit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9ED3A6E24E19BAC0057E087 /* Debug */,
@@ -463,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9ED3A7024E19BAC0057E087 /* Build configuration list for PBXNativeTarget "TwikiTests" */ = {
+		C9ED3A7024E19BAC0057E087 /* Build configuration list for PBXNativeTarget "WikitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C9ED3A7124E19BAC0057E087 /* Debug */,
@@ -473,6 +497,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C938F31B24EAC2E600D7E99B /* XCRemoteSwiftPackageReference "data-uri" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nodes-vapor/data-uri.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C938F31C24EAC2E600D7E99B /* DataURI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C938F31B24EAC2E600D7E99B /* XCRemoteSwiftPackageReference "data-uri" */;
+			productName = DataURI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C9ED3A4424E19BAA0057E087 /* Project object */;
 }
