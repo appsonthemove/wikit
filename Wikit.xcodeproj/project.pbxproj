@@ -70,8 +70,8 @@
 		C9ED3A4324E19BAA0057E087 = {
 			isa = PBXGroup;
 			children = (
-				C9ED3A4E24E19BAA0057E087 /* Twiki */,
-				C9ED3A6724E19BAC0057E087 /* TwikiTests */,
+				C9ED3A4E24E19BAA0057E087 /* Wikit */,
+				C9ED3A6724E19BAC0057E087 /* WikitTests */,
 				C9ED3A4D24E19BAA0057E087 /* Products */,
 				C9ED3A7524E1A1890057E087 /* Frameworks */,
 			);
@@ -86,7 +86,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C9ED3A4E24E19BAA0057E087 /* Twiki */ = {
+		C9ED3A4E24E19BAA0057E087 /* Wikit */ = {
 			isa = PBXGroup;
 			children = (
 				C9ED3A7324E19F5E0057E087 /* empty.html */,
@@ -99,16 +99,16 @@
 				C9ED3A5C24E19BAC0057E087 /* LaunchScreen.storyboard */,
 				C9ED3A5F24E19BAC0057E087 /* Info.plist */,
 			);
-			path = Twiki;
+			path = Wikit;
 			sourceTree = "<group>";
 		};
-		C9ED3A6724E19BAC0057E087 /* TwikiTests */ = {
+		C9ED3A6724E19BAC0057E087 /* WikitTests */ = {
 			isa = PBXGroup;
 			children = (
 				C9ED3A6824E19BAC0057E087 /* TwikiTests.swift */,
 				C9ED3A6A24E19BAC0057E087 /* Info.plist */,
 			);
-			path = TwikiTests;
+			path = WikitTests;
 			sourceTree = "<group>";
 		};
 		C9ED3A7524E1A1890057E087 /* Frameworks */ = {
@@ -392,12 +392,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E4BQ7JDMZ;
-				INFOPLIST_FILE = Twiki/Info.plist;
+				INFOPLIST_FILE = Wikit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appsonthemove.Twiki;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsonthemove.wikit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -410,12 +410,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8E4BQ7JDMZ;
-				INFOPLIST_FILE = Twiki/Info.plist;
+				INFOPLIST_FILE = Wikit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appsonthemove.Twiki;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appsonthemove.wikit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

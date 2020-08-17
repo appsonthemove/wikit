@@ -1,6 +1,6 @@
 //
 //  DocumentViewController.swift
-//  Twiki
+//  Wikit
 //
 //  Created by Matthew Kennard on 10/08/2020.
 //  Copyright © 2020 Apps On The Move Limited. All rights reserved.

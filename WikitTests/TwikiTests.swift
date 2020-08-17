@@ -1,15 +1,15 @@
 //
-//  TwikiTests.swift
-//  TwikiTests
+//  WikitTests.swift
+//  WikitTests
 //
 //  Created by Matthew Kennard on 10/08/2020.
 //  Copyright © 2020 Apps On The Move Limited. All rights reserved.
 //
 
 import XCTest
-@testable import Twiki
+@testable import Wikit
 
-class TwikiTests: XCTestCase {
+class WikitTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
